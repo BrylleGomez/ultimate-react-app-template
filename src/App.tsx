@@ -1,46 +1,16 @@
-import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 const App = function () {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button
-            type="button"
-            onClick={() => setCount((number) => number + 1)}
-          >
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="bg-gray-900 p-20 h-screen flex justify-center items-start flex-col">
+      <h1 className="text-5xl text-white">Hello Tailwind 👋</h1>
+      <p className="text-gray-400 mt-5 text-lg">
+        Welcome to the Ultimate React App Template by BrylleGomez!
+      </p>
+      <button
+        type="button"
+        className="p-4 bg-green-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600"
+      >
+        Hello Friends 🚀
+      </button>
     </div>
   );
 };
