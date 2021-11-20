@@ -27,3 +27,10 @@ Ultimate template for a React+TS single page application.
     3. Making ESLint and Prettier work together → [guide](https://javascript.plainenglish.io/setting-eslint-and-prettier-on-a-react-typescript-project-2021-22993565edf9)
 5. **Setup Tailwind** → [guide](https://tailwindcss.com/docs/guides/vue-3-vite)
     1. (Recommended) Install VS Code [extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) for Tailwind Intellisense
+
+### Usage
+
+1. Download repository as .zip and unzip contents 
+2. Initialize git repo with `git init` (publish/push to GitHub if desired)
+3. Install packages using `yarn install`
+4. (Optional) Change "name" field in package.json from "ultimate-react-app" to desired project name
