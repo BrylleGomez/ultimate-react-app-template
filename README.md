@@ -30,7 +30,9 @@ Ultimate template for a React+TS single page application.
 
 ### Usage
 
-1. Download repository as .zip and unzip contents 
-2. Initialize git repo with `git init` (publish/push to GitHub if desired)
-3. Install packages using `yarn install`
+1. Download repository:
+    - Clone method: `git clone https://github.com/BrylleGomez/ultimate-react-app.git`
+    - Or download as `.zip` and unzip the contents
+2. (Optional) Initialize git repo with `git init`, if code was downloaded from the zip file (publish/push to GitHub if desired)
+3. Install packages using `yarn` or `yarn install`
 4. (Optional) Change "name" field in package.json from "ultimate-react-app" to desired project name
