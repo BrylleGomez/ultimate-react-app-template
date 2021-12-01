@@ -1,4 +1,6 @@
-const App = function () {
+import React from 'react';
+
+const App: React.FC = () => {
   return (
     <div className="bg-gray-900 p-20 h-screen flex justify-center items-start flex-col">
       <h1 className="text-5xl text-white">Hello Tailwind 👋</h1>
