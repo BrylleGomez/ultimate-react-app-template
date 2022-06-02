@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "tsc && vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --port 4000"
   },
   "dependencies": {
     "react": "^17.0.0",
