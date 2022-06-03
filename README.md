@@ -1,4 +1,4 @@
-# BrylleGomez's Ultimate React App Template
+# Ultimate React App Template
 
 Ultimate template for a React+TS single page application.
 
@@ -8,7 +8,6 @@ Ultimate template for a React+TS single page application.
 2. **TypeScript** → Language
 3. **Vite** → Frontend Build Tool
 4. **Yarn** → Package Manager
-5. **Tailwind** → Utility CSS
 
 ### Project Setup
 
@@ -25,8 +24,6 @@ Ultimate template for a React+TS single page application.
     1. Install and setup code linting w/ ESLint → [guide](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
     2. Install and setup code formatting w/ Prettier → [guide](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0) (do not setup VS Code)
     3. Making ESLint and Prettier work together → [guide](https://javascript.plainenglish.io/setting-eslint-and-prettier-on-a-react-typescript-project-2021-22993565edf9)
-5. **Setup Tailwind** → [guide](https://tailwindcss.com/docs/guides/vue-3-vite)
-    1. (Recommended) Install VS Code [extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) for Tailwind Intellisense
 
 ### Usage
 

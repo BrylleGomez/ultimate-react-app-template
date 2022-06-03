@@ -2,16 +2,13 @@
   "name": "ultimate-react-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "tsc && vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --port 4000"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.3.11",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "tailwindcss": "^2.2.19"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
