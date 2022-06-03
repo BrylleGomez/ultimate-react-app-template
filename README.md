@@ -2,6 +2,22 @@
 
 Ultimate template for a React+TS single page application.
 
+### Usage
+
+1. Clone repository - `git clone https://github.com/BrylleGomez/ultimate-react-app.git`
+2. Rename folder name - for MacOS/Linux: `mv ultimate-react-app-template <your-desired-folder-name>`
+3. Navigate to project folder and delete .git folder and .gitignore file - for MacOS/Linux: `rm -rf .git` and `rm .gitignore`
+4. Initialize git in the repository, add .gitignore with the below contents, add desired remote repository as remote, and push initial commit to new remote.
+
+##### Sample .gitignore
+```
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+```
+
 ### Tech Stack
 
 1. **React** → Frontend Framework
@@ -24,12 +40,3 @@ Ultimate template for a React+TS single page application.
     1. Install and setup code linting w/ ESLint → [guide](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
     2. Install and setup code formatting w/ Prettier → [guide](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0) (do not setup VS Code)
     3. Making ESLint and Prettier work together → [guide](https://javascript.plainenglish.io/setting-eslint-and-prettier-on-a-react-typescript-project-2021-22993565edf9)
-
-### Usage
-
-1. Download repository:
-    - Clone method: `git clone https://github.com/BrylleGomez/ultimate-react-app.git`
-    - Or download as `.zip` and unzip the contents
-2. (Optional) Initialize git repo with `git init`, if code was downloaded from the zip file (publish/push to GitHub if desired)
-3. Install packages using `yarn` or `yarn install`
-4. (Optional) Change "name" field in package.json from "ultimate-react-app" to desired project name
